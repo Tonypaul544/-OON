@@ -1,5 +1,17 @@
 
 
+// const mine = $(".mine-Btn"),
+//       thousand = $(".thousand"),
+//       hundred = $(".hundred"),
+//       kobo = $(".kobo");
+
+// $(mine).addEventListener("click", farmStart);
+// function farmStart() {
+//   kobo.innerHTML = kobo++;
+// }
+
+
+// ---EXPLORE SECTION----
 
 const btn1 = document.querySelector(".tab1"),
       btn2 = document.querySelector(".tab2"),
