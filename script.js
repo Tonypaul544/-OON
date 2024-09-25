@@ -1,5 +1,56 @@
 
 
+let label = document.querySelectorAll(".label");
+label.addEventListener("click", show);
+
+function show() {
+    alert("This Page is still under Maintainance")
+
+}
+
+document.querySelectorAll(".label").onclick = function() {
+  alert("This Page is still under Maintainance")
+}
+
+let newBalance = 350;
+document.querySelector(".mine-Btn").onclick = function() {
+  newBalance += 10;
+  document.querySelector(".balance").innerHTML = newBalance;
+  updateLocalStorage(newBalance);
+}
+
+localStorage.setItem("newBalance", newBalance);
+
+
+
+// const balance = document.querySelector(".balance");
+// const mineBtn = document.querySelector(".mine-Btn");
+// const countdownValue = document.querySelector(".timer");
+// const levelElement = document.querySelector(".timer");
+
+
+
+
+// function startCountdown() {
+//   isCountingDown = true;
+//   let interval = setInterval(() => {
+//       levelElement.textContent = countdownValue;
+//       countdownValue--;
+
+//       if (countdownValue < 0) {
+//           clearInterval(interval);
+//           isCountingDown = false;
+//           levelElement.textContent = level;
+//           countdownValue = 30;
+//       }
+//   }, 1000);
+// }
+
+// increaseButton.addEventListener("click", handleIncrement);
+
+
+
+
 // const mine = $(".mine-Btn"),
 //       thousand = $(".thousand"),
 //       hundred = $(".hundred"),

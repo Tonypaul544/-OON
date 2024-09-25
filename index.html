@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="images/soon-pfp.png" type="image/x-icon">
   <title>$SOON</title>
 </head>
-<body>
+<body  id="dashboard">
   <header>
     <div class="header-container">
       <div class="icon">
@@ -32,35 +32,45 @@
    
   <section class="body-section">
     <div class="balance-container">
-      <h2 class="balance">75</h2>
+      <h2 class="balance">350</h2>
       <p class="currency">$oon</p>
     </div>
     
+    <!-- ---PRE START WARNING---- -->
+    <!-- <div class="warning">
+      <h3 class="warn-body">PLease note that your current earnings wont be recorded as the app is still under development. <br> But you have recieved a sum of 350 $oon tokens as an early bird</h3>
+    </div> -->
+
+
     <div class="value-section">
       <p class="airdrop-desc">Worth Of Airdrop Claimed</p>
       <div class="value">
         <p class="airdrop-value"><b>~$00.00</b> @$870M</p>
       </div>
-      <div class="description desc">
+
+      <div class="description desc" id="balance">
+        <p>PLease note that your current earnings won't be recorded as the app is still under development. <br> But you have recieved a sum of 350 $oon tokens as an early bird reward</p>
+        <p class="hide">
+          
         You can only claim 35% of your total earnings. <br> So stay bullish to gather more assets befor the launch date.!!
+        </p>
       </div>
 
       <section class="mining-section">
-        <div class="mine-reward">
-         <button class="mine">Claim</button>
-        </div>
+       
         <div class="mining-section">
+          <div class="mine-reward">
+            <p class="mine">Claim</p>
+           </div>
           <div class="farming-zone">
             <h4 class="farm-value">
               <div class="farm-amount">
-                <span class="Million">00, </span>
-                <span class="thousand">00, </span>
-                <span class="hundred">00.</span>
-                <span class="kobo">00 </span>
+                <span class="timer">00</span>
+
               </div>
             </h4>
           </div>
-          <button type="button" class="mine-Btn">Start Farming</button>
+          <button type="button" class="mine-Btn">Mine</button>
         </div>
       </section>
     </div>
@@ -71,7 +81,7 @@
         <p class="tab-instructions">Discover more oppurtunities <br> and earn more points.</p>
       </div>
   
-  <div class="tab-down">
+  <div class="tab-down" id="tabs">
     <div class="tab-contents">
       <button type="" class="tab1 tab" id="tab">Who we are.</button type="">
       <button type="" class="tab2 tab">What we do.</button type="">
@@ -104,21 +114,21 @@
    
   <footer>
     <div class="footer-container">
-      <a href="#">
+      <a href="#tabs">
         <div class="task" id="nav">
           <i class="fa-solid fa-list-check fa-2xl" style="color: #71ff3d;"></i>
           <p type="button" class="label Quest-label">Quest</p type="button">
         </div>
       </a>
       
-      <a href="#">
+      <a href="#balance">
         <div class="balance" id="nav">
           <i class="fa-solid fa-scale-balanced fa-2xl" style="color: #71ff3d;"></i>
           <p class="label balance-label">Balance</p>
         </div>
       </a>
       
-      <a href="#">
+      <a href="index.html">
         <div class="dashboard" id="nav">
           <i class="fa-solid fa-gauge fa-2xl" style="color: #71ff3d;"></i>
           <p class="label dashboard-label ">Dashboard</p>

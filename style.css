@@ -9,6 +9,40 @@
   text-decoration: none;
 }
 
+
+/* -- ---PRE START WARNING---- -- */
+.warning {
+  position: absolute;
+  align-items: center;
+  margin: auto;
+  padding: 15px;
+  width: 83%;
+  border-radius: 12px;
+  text-align: center;
+  z-index: 1;
+  margin-top: -110px;
+  background-color: rgb(6, 28, 21);
+  animation: slideDown .6s;
+  /* display: none; */
+}
+
+@keyframes slideDown {
+  0%{
+    transform: translateY(-120%);
+  }
+
+  100% {
+    transform: translateY(20%);
+  }
+}
+
+
+.hide {
+  display: none;
+}
+
+
+
 .sofadi-one-regular {
   font-family: "Sofadi One", system-ui;
   font-weight: 400;
@@ -110,20 +144,19 @@ header p {
   height: auto;
 }
 
-.farming-zone {
-  height: 50px;
+.mining-section {
+  height: 300px;
   width: 90%;
   display: grid;
   align-items: center;
   background-color: rgba(15, 58, 25, .7);
-  border: 5px solid yellowgreen;
-  border-radius: 2000px;
+  /* border: 5px solid yellowgreen; */
   margin: 20px auto;
 }
 
-.farm-amount{
-  height: 80%;
-  width: 80%;
+.mining-section{
+  height: 200px;
+  width: 90%;
   /* background-color: #fff; */
   margin: auto;
 }
