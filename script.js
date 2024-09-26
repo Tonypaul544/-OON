@@ -1,19 +1,26 @@
 
 
-//let label = document.querySelectorAll(".label");
-//label.addEventListener("click", show);
+// let label = document.querySelectorAll(".label");
+// label.addEventListener("click", show);
 
-//function show() {
- //   alert("This Page is still under Maintainance")
+// function show() {
+//     alert("This Page is still under Maintainance")
 
-//}
+// }
+
+// document.querySelectorAll(".label").onclick = function() {
+//   alert("This Page is still under Maintainance")
+// }
 
 let newBalance = 350;
 document.querySelector(".mine-Btn").onclick = function() {
-  newBalance += 10;
+  newBalance += 7;
   document.querySelector(".balance").innerHTML = newBalance;
   updateLocalStorage(newBalance);
 }
+
+//Reduce the number to 6 digits
+
 
 localStorage.setItem("newBalance", newBalance);
 
